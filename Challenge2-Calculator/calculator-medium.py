@@ -52,7 +52,6 @@ def getNum(context='default'):
 def main():
     print("Welcome to your calculator!")
     num1 = getNum("num1")
-    print(f"Result: {num1}")
     while True: 
         while True:
             operator = input("Enter an operation (+, -, *, /, clear, exit): ").strip().lower()
