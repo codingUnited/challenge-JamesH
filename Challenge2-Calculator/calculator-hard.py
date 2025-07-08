@@ -71,6 +71,8 @@ def main():
             storage = 0
         except DivideByZero as e:
             print(e)
+        except Exit:
+            raise
         except Exception as e:
             print(e)
          
